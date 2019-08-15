@@ -1,3 +1,5 @@
+REM ToDo: add exclude all modules that are not required
+REM ToDo: turn into single dir to check which lib is missing
 pyinstaller --noconfirm --log-level=WARN ^
     --exclude-module alabaster  ^
     --exclude-module altgraph  ^
@@ -288,4 +290,3 @@ pyinstaller --noconfirm --log-level=WARN ^
     --exclude-module zict  ^
     --exclude-module zope.interface  ^
     --onefile --windowed xlsx_json_conv.py
-REM add all modules that are not required
